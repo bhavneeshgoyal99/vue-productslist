@@ -10,7 +10,7 @@
     <td>{{ product.title }}</td>
     <td>{{ product.description }}</td>
     <td>{{ product.price }}</td>
-    <td>{{ product.discount }}</td>
+    <td>{{ product.discountPercentage }}%</td>
   </tr>
 </template>
 

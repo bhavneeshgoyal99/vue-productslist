@@ -1,6 +1,11 @@
 <template>
-  <div>
-    <input type="text" v-model="searchQuery" placeholder="Search products..." />
+  <div class="p-3">
+    <input
+      type="text"
+      v-model="searchQuery"
+      class="w-50 m-3 form-control"
+      placeholder="Search products..."
+    />
     <table class="table table-bordered table-striped w-100">
       <thead>
         <tr>
